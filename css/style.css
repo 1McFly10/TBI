@@ -33,7 +33,7 @@ a {
 }
 .banner-info-image{
     width: 50%;
-    min-height: 85vh;
+    min-height: 700px;
     height: auto;
     background-position: center;
     background-size: cover;
