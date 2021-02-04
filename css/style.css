@@ -303,6 +303,63 @@ a {
     font-size: 1.4rem;
 }
 
+/*What We’re Looking For*/
+
+.what-wrapper-how{
+    position: relative;
+    background-color: #EDEDED;
+    width: 100%;
+    min-height: 450px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-family: 'FuturaMediumC';
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.what-we-do-title{
+    font-size: 3.2rem;
+}
+.what-we-do-underline{
+    background-color: black;
+    width: 200px;
+    height: 3px;
+    margin-top: 20px;
+}
+
+.what-point-wrapper{
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 110px;
+    width: 100%;
+}
+
+.what-point{
+    width: 300px;
+    display: flex;
+    margin-bottom: 80px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.what-point img{
+    margin: 0px auto;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+.what-point p{
+    text-align: center;
+    font-size: 1.4rem;
+}
+
 .why-wrapper{
     position: relative;
     background-color: white;
@@ -445,6 +502,11 @@ a {
         margin: 0 auto;
         margin-top: 100px;
     }
+
+    .recognised-logo img {
+        width: 300px;
+    }
+
     .founder-profile img{
         width: 250px;
         height: 250px;
@@ -460,6 +522,16 @@ a {
     }
 }
 @media (max-width: 768px) {
+
+    .recognised-logo img {
+        width: 220px;
+        margin-bottom: 40px;
+    }
+
+    .recognised-logo {
+        flex-direction: column;
+    }
+
     .banner-info-wrapper{
         display: flex;
         flex-direction: column;
@@ -559,6 +631,18 @@ a {
     }
 }
 @media (max-width: 450px) {
+
+    .point-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: auto;
+    }
+
+    .point-wrapper .point{
+        margin-bottom: 30px;
+    }
+
     .what-we-do-wrapper {
         position: relative;
         background-color: white;
@@ -581,6 +665,7 @@ a {
     }
     .what-we-do-title {
         font-size: 2.5rem;
+        text-align: center;
     }
     .partners-logo{
         display: flex;
