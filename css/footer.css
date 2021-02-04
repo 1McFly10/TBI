@@ -41,8 +41,13 @@ form input{
 }
 
 .last-input{
-    height: 200px;
-    padding-bottom: 120px;
+    height: 100px;
+    /* padding-bottom: 100px; */
+    background: #E5E5E5;
+    border: none;
+    padding: 15px;
+    font-family: 'FuturaMediumC';
+    font-size: 1rem;
 }
 
 .feedback-button{
@@ -174,10 +179,13 @@ form input{
     }
 
     form input {
-        padding-top: 9px;
+        padding-top: 4px;
+        padding-bottom: 4px;
         padding-left: 15px;
-        height: 70px;
+        height: 40px;
         margin-bottom: 40px;
+        font-family: 'FuturaMediumC';
+        font-size: 1rem;
     }
 
     form {
