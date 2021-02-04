@@ -22,7 +22,7 @@
     width: 200px;
     height: 5px;
     margin-bottom: 68px;
-    background: linear-gradient(90deg, rgba(76,82,120,1) 0%, rgba(96,74,96,1) 39%, rgba(132,60,51,1) 39%);
+    background: linear-gradient(90deg, rgba(76,82,120,1) 33%, rgba(132,60,51,1) 33%);
 }
 
 form{
