@@ -52,6 +52,7 @@ form input{
     padding: 15px;
     font-family: 'FuturaMediumC';
     font-size: 1rem;
+    resize: vertical;
 }
 
 .feedback-button{
